@@ -256,6 +256,7 @@ export default function BusinessPlanPage({ model, setModel, bankData = {}, onOpe
             </div>
           ) : isLoading ? (
             <div className="bp-result bp-result--loading">
+              <LoaderCircle size={36} className="spin" />
               <h3>AI biznes reja tuzmoqda...</h3>
               <p>Bu bir necha soniya vaqt olishi mumkin.</p>
             </div>

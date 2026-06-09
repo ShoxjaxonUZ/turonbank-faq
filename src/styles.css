@@ -4121,7 +4121,7 @@ body::after {
   pointer-events: none; z-index: 2;
 }
 /* always-on AI surfaces spin their ring; grids spin only on hover */
-.nd-ai-block::before, .chat-panel::before, .bp-result--done::before,
+.nd-ai-block::before, .chat-panel::before,
 .contact-panel::before, .nd-bank-hero::before { animation: ringSpin 6s linear infinite; }
 .tuman-card-v2::before, .nd-kpi::before, .mah-card-v2::before { opacity: 0; transition: opacity 0.3s; }
 .tuman-card-v2:hover::before, .nd-kpi:hover::before, .mah-card-v2:hover::before {
