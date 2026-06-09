@@ -1644,6 +1644,13 @@ h1 {
   border-bottom: 2px solid var(--blue-light);
 }
 
+.bp-divider {
+  border: 0;
+  border-top: 1px solid var(--blue-light);
+  margin: 16px 0;
+  opacity: 0.5;
+}
+
 .bp-list-item {
   padding-left: 14px;
   border-left: 3px solid var(--gold);

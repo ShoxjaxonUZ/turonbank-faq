@@ -238,6 +238,8 @@ export default function BusinessPlanPage({ model, setModel, bankData = {}, onOpe
               <div className="bp-content">
                 {plan.split("\n").map((line, i) => {
                   if (!line.trim()) return <br key={i} />;
+                  // Markdown ajratuvchi chiziq (---, ***, ___) — xom belgilar o'rniga <hr>
+                  if (/^\s*([-*_])\1{2,}\s*$/.test(line)) return <hr key={i} className="bp-divider" />;
                   // Markdown sarlavhalari (#, ##, ###, ####) — xom `#` belgilarini olib tashlab, bo'lim sarlavhasi sifatida ko'rsatamiz
                   const heading = line.match(/^\s*#{1,6}\s+(.*)$/);
                   if (heading) {
