@@ -238,9 +238,15 @@ export default function BusinessPlanPage({ model, setModel, bankData = {}, onOpe
               <div className="bp-content">
                 {plan.split("\n").map((line, i) => {
                   if (!line.trim()) return <br key={i} />;
+                  // Markdown sarlavhalari (#, ##, ###, ####) — xom `#` belgilarini olib tashlab, bo'lim sarlavhasi sifatida ko'rsatamiz
+                  const heading = line.match(/^\s*#{1,6}\s+(.*)$/);
+                  if (heading) {
+                    const text = heading[1].replace(/\*\*/g, "").trim();
+                    return <h3 key={i} className="bp-section-title">{text}</h3>;
+                  }
                   const clean = line.replace(/\*\*/g, "").trim();
                   if (/^\d+\.\s+[A-Z'А-ЯЎҚҒ]/.test(clean)) return <h3 key={i} className="bp-section-title">{clean}</h3>;
-                  if (line.trim().startsWith("- ") || line.trim().startsWith("• ")) return <p key={i} className="bp-list-item">{renderInline(line)}</p>;
+                  if (/^\s*[-•*]\s+/.test(line)) return <p key={i} className="bp-list-item">{renderInline(line.replace(/^\s*[-•*]\s+/, "• "))}</p>;
                   return <p key={i}>{renderInline(line)}</p>;
                 })}
                 {isLoading && <span className="chat-cursor" />}
