@@ -1,0 +1,19 @@
+# Render.com uchun konfiguratsiya (Infrastructure as Code).
+# Dashboard'da "New + → Blueprint" → repo'ni ulang → avtomatik o'qiladi.
+services:
+  - type: web
+    name: turonbank-faq-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: OPENROUTER_API_KEY
+        sync: false # qiymatni Render dashboard'da qo'lda kiriting
+      - key: OPENROUTER_MODEL
+        value: google/gemma-4-31b-it:free
+      - key: OPENROUTER_SITE_URL
+        value: https://turon-bank.vercel.app
+      - key: CORS_ORIGIN
+        value: https://turon-bank.vercel.app

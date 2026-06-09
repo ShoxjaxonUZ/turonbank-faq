@@ -1,0 +1,50 @@
+[
+  {
+    "nomi": "Maksimum omonat",
+    "valyuta": "UZS",
+    "muddat": "18 oy",
+    "stavka": "Yillik 18%gacha",
+    "minimal_miqdor": "100 000 so'm",
+    "toʻldirish": "Ha",
+    "qisman_chiqim": "Ha",
+    "muddatdan_avval_yopish": "Mumkin (foiz qayta hisoblanadi)",
+    "onlayn_ochish": "Ha — MyTuron orqali",
+    "izoh": "Eng yuqori stavkali so'm omonati"
+  },
+  {
+    "nomi": "Klassik omonat",
+    "valyuta": "UZS",
+    "muddat": "3 oydan 24 oygacha",
+    "stavka": "Yillik 12%dan 16%gacha",
+    "minimal_miqdor": "500 000 so'm",
+    "toʻldirish": "Yo'q",
+    "qisman_chiqim": "Yo'q",
+    "muddatdan_avval_yopish": "Mumkin",
+    "onlayn_ochish": "Ha",
+    "izoh": "Belgilangan muddat va stavka"
+  },
+  {
+    "nomi": "Valyuta omonati",
+    "valyuta": "USD / EUR",
+    "muddat": "3 oydan 12 oygacha",
+    "stavka": "Yillik 3%gacha",
+    "minimal_miqdor": "100 USD",
+    "toʻldirish": "Ha",
+    "qisman_chiqim": "Yo'q",
+    "muddatdan_avval_yopish": "Mumkin",
+    "onlayn_ochish": "Ha",
+    "izoh": "Xorijiy valyutada saqlash uchun"
+  },
+  {
+    "nomi": "Bolalar omonati",
+    "valyuta": "UZS",
+    "muddat": "18 yoshga to'lguncha",
+    "stavka": "Yillik 14%",
+    "minimal_miqdor": "50 000 so'm",
+    "toʻldirish": "Ha",
+    "qisman_chiqim": "Yo'q",
+    "muddatdan_avval_yopish": "Cheklangan",
+    "onlayn_ochish": "Yo'q — ofisda",
+    "izoh": "Ota-ona nomiga, farzand uchun to'plash"
+  }
+]

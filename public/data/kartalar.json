@@ -1,0 +1,62 @@
+[
+  {
+    "nomi": "Humo karta",
+    "turi": "Debet",
+    "tizim": "Humo",
+    "valyuta": "UZS",
+    "amal_muddati": "5 yil",
+    "chiqarish_narxi": "50 000 so'm",
+    "yillik_xizmat": "Bepul",
+    "cashback": "Yo'q",
+    "xususiyatlar": ["P2P o'tkazma", "QR to'lov", "Onlayn to'lovlar", "MyTuron boshqaruvi"],
+    "izoh": "Milliy to'lov tizimi, O'zbekiston ichida"
+  },
+  {
+    "nomi": "Uzcard",
+    "turi": "Debet",
+    "tizim": "Uzcard",
+    "valyuta": "UZS",
+    "amal_muddati": "5 yil",
+    "chiqarish_narxi": "50 000 so'm",
+    "yillik_xizmat": "Bepul",
+    "cashback": "Yo'q",
+    "xususiyatlar": ["P2P o'tkazma", "Savdo markazlari", "MyTuron boshqaruvi"],
+    "izoh": "Keng tarqalgan milliy karta"
+  },
+  {
+    "nomi": "Mastercard Standard",
+    "turi": "Debet / Kredit",
+    "tizim": "Mastercard",
+    "valyuta": "USD / UZS",
+    "amal_muddati": "3 yil",
+    "chiqarish_narxi": "50 000 so'm",
+    "yillik_xizmat": "50 000 so'm",
+    "cashback": "Ayrim savdogarlarda",
+    "xususiyatlar": ["Xalqaro to'lovlar", "Online xaridlar", "ATM jahon bo'ylab"],
+    "izoh": "Xorijda ham ishlatish uchun"
+  },
+  {
+    "nomi": "Visa Business",
+    "turi": "Biznes",
+    "tizim": "Visa",
+    "valyuta": "USD / UZS",
+    "amal_muddati": "3 yil",
+    "chiqarish_narxi": "100 000 so'm",
+    "yillik_xizmat": "100 000 so'm",
+    "cashback": "Yo'q",
+    "xususiyatlar": ["Korporativ xarajatlar", "Hisobot", "Xalqaro to'lovlar"],
+    "izoh": "Yuridik shaxslar va tadbirkorlar uchun"
+  },
+  {
+    "nomi": "Visa Gold",
+    "turi": "Premium",
+    "tizim": "Visa",
+    "valyuta": "USD",
+    "amal_muddati": "3 yil",
+    "chiqarish_narxi": "Sug'urta depoziti talab qilinadi",
+    "yillik_xizmat": "200 000 so'm",
+    "cashback": "Ha",
+    "xususiyatlar": ["Xalqaro to'lovlar", "Sug'urta", "Concierge xizmati", "Lounge kirish"],
+    "izoh": "Premium mijozlar uchun"
+  }
+]

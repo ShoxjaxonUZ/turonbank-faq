@@ -1,0 +1,50 @@
+[
+  {
+    "nomi": "Iste'mol krediti",
+    "valyuta": "UZS",
+    "muddat": "12 oydan 60 oygacha",
+    "miqdor": "5 000 000 — 100 000 000 so'm",
+    "foiz": "Yillik 24%dan",
+    "talab": ["18-65 yosh", "O'zbekiston fuqarosi", "Doimiy daromad"],
+    "hujjatlar": ["Pasport", "STIR", "Daromad ma'lumotnomasi"],
+    "kafolat": "Kafillik yoki garov",
+    "imtiyozli_davr": "3 oy",
+    "izoh": "MyTuron ilovasi orqali ariza berish mumkin"
+  },
+  {
+    "nomi": "Onlayn mikroqarz",
+    "valyuta": "UZS",
+    "muddat": "1 oydan 12 oygacha",
+    "miqdor": "500 000 — 10 000 000 so'm",
+    "foiz": "Yillik 36%dan",
+    "talab": ["18-65 yosh", "MyTuron foydalanuvchisi"],
+    "hujjatlar": ["Pasport (onlayn)"],
+    "kafolat": "Talab qilinmaydi",
+    "imtiyozli_davr": "Yo'q",
+    "izoh": "Faqat MyTuron ilovasi orqali, ofisga bormasdan"
+  },
+  {
+    "nomi": "Ipoteka krediti",
+    "valyuta": "UZS",
+    "muddat": "10 yilgacha",
+    "miqdor": "50 000 000 — 1 000 000 000 so'm",
+    "foiz": "Yillik 18%dan",
+    "talab": ["18-65 yosh", "Doimiy daromad", "Ishchi staji 6 oy+"],
+    "hujjatlar": ["Pasport", "STIR", "Daromad ma'lumotnomasi", "Ko'chmas mulk hujjatlari"],
+    "kafolat": "Ko'chmas mulk garovi",
+    "imtiyozli_davr": "6 oy",
+    "izoh": "Davlat subsidiyali ipoteka dasturlari bilan ham ishlaydi"
+  },
+  {
+    "nomi": "Biznes krediti",
+    "valyuta": "UZS / USD",
+    "muddat": "24 oydan 84 oygacha",
+    "miqdor": "10 000 000 so'mdan",
+    "foiz": "Yillik 20%dan",
+    "talab": ["Tadbirkor yoki yuridik shaxs", "Faoliyat muddati 6 oy+"],
+    "hujjatlar": ["Pasport", "Guvohnoma", "Moliyaviy hisobot"],
+    "kafolat": "Mulk yoki kafillik",
+    "imtiyozli_davr": "6 oy",
+    "izoh": "Mahalla agentlari orqali ham rasmiylashtirilishi mumkin"
+  }
+]
