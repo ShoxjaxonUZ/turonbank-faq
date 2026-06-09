@@ -4108,7 +4108,7 @@ body::after {
 .nd-ai-block, .bp-result--done, .nd-bank-hero,
 .tuman-card-v2, .nd-kpi, .mah-card-v2 { position: relative; isolation: isolate; }
 .chat-panel, .contact-panel { isolation: isolate; }
-.nd-ai-block::before, .chat-panel::before, .bp-result--done::before,
+.nd-ai-block::before, .chat-panel::before,
 .contact-panel::before, .nd-bank-hero::before,
 .tuman-card-v2::before, .nd-kpi::before, .mah-card-v2::before {
   content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1.5px;
